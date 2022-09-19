@@ -1,0 +1,151 @@
+/* ===================== Responsive css =====================  */
+
+// Mobile 480 PX ==================
+@media (max-width: 480px) {
+    nav {
+        .nav-item {
+            line-height: 30px !important;
+        }
+
+        .navbar-brand {
+            line-height: 50px !important;
+            font-size: 20px;
+        }
+    }
+
+    header {
+        text-align: center;
+
+        .header-right {
+            display: none;
+        }
+
+        .welcome-text h1 {
+            font-size: 40px !important;
+        }
+    }
+
+    .team-card,
+    .pricing-card {
+        margin-top: 20px;
+    }
+
+    .pricing-card {
+        width: 80% !important;
+    }
+
+    .team-card {
+        width: 60%;
+    }
+
+    .testimonial {
+
+        &::after,
+        &::before {
+            display: none;
+        }
+    }
+
+    .contact-info,
+    .contact-form {
+        width: 100% !important;
+    }
+
+    footer {
+        clip-path: polygon(35% 0, 83% 0, 100% 0, 100% 100%, 80% 100%, 20% 100%, 0 100%, 0 0) !important;
+
+        .logo {
+            padding-top: 0px !important;
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        .useful-link {
+            ul li {
+                float: left;
+                margin-right: 10px;
+            }
+        }
+
+        .useful-link,
+        .footer-contact {
+            padding-top: 30px !important;
+        }
+    }
+    .settings-btn,
+    .themeBox {
+        display: none;
+    }
+}
+
+
+
+// Tablet 768 PX ==================
+@media (max-width: 768px) {
+    
+    nav {
+        .nav-item {
+            line-height: 30px !important;
+        }
+
+        .navbar-brand {
+            line-height: 50px !important;
+            font-size: 20px;
+        }
+    }
+
+    header {
+        text-align: center;
+
+        .header-right {
+            display: none;
+        }
+    }
+
+    .team-card,
+    .pricing-card {
+        margin-top: 20px;
+    }
+
+    .pricing-card {
+        width: 60%;
+    }
+
+    .team-card {
+        width: 80%;
+    }
+
+    .testimonial {
+
+        &::after,
+        &::before {
+            display: none;
+        }
+    }
+
+    .contact-info,
+    .contact-form {
+        width: 80%;
+    }
+
+    footer {
+        clip-path: polygon(35% 0, 83% 0, 100% 0, 100% 100%, 80% 100%, 20% 100%, 0 100%, 0 0) !important;
+
+        .logo {
+            padding-top: 0px !important;
+            text-align: center;
+        }
+
+        .useful-link,
+        .footer-contact {
+            padding-top: 30px !important;
+        }
+    }
+    .settings-btn,
+    .themeBox {
+        display: none;
+    }
+}
